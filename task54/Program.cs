@@ -124,7 +124,7 @@ void PrintMatrix (int[,] matrix)
 }
 
 
-const int columns = 1, rows = 0;
+const int rows = 0, columns = 1; // это чтобы не запутаться
 int[] newMatrixDimensions = {6, 7};
 
 Console.Clear();
