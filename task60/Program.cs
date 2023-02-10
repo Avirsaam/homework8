@@ -53,7 +53,13 @@ int[,,] InitMatrix(int height, int width, int depth, int rndMax, int rndMin)
 }
 
 
+
+
+
+
+
 Console.Clear();
+
 int[,,] matrix = InitMatrix( height: 2, width:  2, depth:  2, 
                              rndMin: 10, rndMax: 100);
 
